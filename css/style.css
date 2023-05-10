@@ -9,6 +9,35 @@ font-size: 28px
 .carousel-item img{
     filter: brightness(70%);
 }
-.kartyak{
+.kartya{
     margin: 10px;
+    
 }
+header{
+    background-color: #fff ;
+    
+}
+.card-text{
+  
+}
+.card{
+    border-color: #527C99;
+}
+.navbar{
+    
+}
+.navbar-brand, .nav-link{
+    color: #527C99
+}
+.navbar a:hover{
+    color: #B05A5F;
+}
+.ketto{
+    height: 200px;
+    background-color: #A26C3C;
+}
+.card{border-radius: 15px;}
+.img-fluid{
+    border-radius: 15px 0 0px 15px;
+}
+
