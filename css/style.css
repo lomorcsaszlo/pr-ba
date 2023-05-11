@@ -10,34 +10,103 @@ font-size: 28px
     filter: brightness(70%);
 }
 .kartya{
-    margin: 10px;
+    margin: 10px 10px 90px 10px;
+    
     
 }
 header{
     background-color: #fff ;
     
 }
-.card-text{
-  
-}
+
 .card{
     border-color: #527C99;
 }
-.navbar{
-    
-}
+
 .navbar-brand, .nav-link{
     color: #527C99
 }
 .navbar a:hover{
     color: #B05A5F;
 }
-.ketto{
-    height: 200px;
-    background-color: #A26C3C;
-}
-.card{border-radius: 15px;}
+.kartya .card{border-radius: 15px;}
 .img-fluid{
     border-radius: 15px 0 0px 15px;
 }
+.zwei{
+    background-color: #B05A5F;
+    display: inline-flex;
 
+}
+.zwei .card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+.card-img-top{
+    max-width: 100%;
+}
+.gombocska{
+    background-color: #B05A5F;
+    border: 0px;
+    padding: 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.gombocska:hover{
+    background-color: #527C99;
+    padding: 10px;
+    transition: 0.6s;
+    
+
+} 
+@media only screen and (max-width: 700px) {
+    .gombocska{
+      display: block;
+    }
+  }
+  footer{
+    padding: 10px;
+    background-color: #fff;
+    
+
+  }
+  .gombocska2{
+    background-color: #B05A5F;
+    border: 0px;
+    padding: 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    
+  }
+  form{
+    margin-bottom: 10px;
+  }
+  .gombocska2:hover{
+    background-color: #527C99;
+    padding: 10px;
+    transition: 0.6s;
+    
+
+}
+.drei{
+    height: 70px;
+    background-color: #B05A5F;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding: 10px;
+}
+.drei a{
+    text-decoration: none;
+    color: #d3979a;
+    
+
+    
+    
+}
+.drei a:hover{
+    color: #dccecf;
+}
