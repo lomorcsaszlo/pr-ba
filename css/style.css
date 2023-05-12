@@ -28,6 +28,7 @@ header{
 }
 .navbar a:hover{
     color: #B05A5F;
+    transition: 0.5s;
 }
 .kartya .card{border-radius: 15px;}
 .img-fluid{
@@ -110,3 +111,4 @@ header{
 .drei a:hover{
     color: #dccecf;
 }
+
